@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Monoton&family=Poiret+One&display=swap');
+
+:root{
+    --body-font: 'Poiret One', cursive;
+    --navbar-font: 'Cinzel', serif;
+    --logo-ffont: 'Monoton', cursive;
+    --back-color: #3F3B6C;
+    --main-color: #8D72E1;
+    --font-color: #98A8F8;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: var(--body-font);
+    background-color: var(--main-color);
+}
+.navbar{
+    height: 45px;
+    padding: 0 1rem;
+    background-color: rgba(0,0,0,.1);
+}
+.navbar__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__main-logo{
+    font-family: var(--logo-ffont);
+    color: white;
+}
+.navbar__main-links{
+    scroll-behavior: smooth;
+}
+.navbar__main-links a{
+    align-items: center;
+    text-decoration: none;
+    font-family: var(--navbar-font);
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+}
+.navbar__main-sign a{
+    text-decoration: none;
+    font-family: var(--navbar-font);
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--font-color);
+}
+
+.main__page{
+    padding: 2rem 4rem;
+}
+.main__page img{
+    width: 800px;
+}
